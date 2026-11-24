@@ -1,4 +1,4 @@
-# sendmypaper-com
+# Sendpaper
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sendmypaper-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sendmypaper.com/
+Sendpaper provides a physical mail service for AI agents, allowing developers to programmatically send postcards, letters, and certified mail via a REST API. The platform integrates with popular AI tools such as OpenAI Codex, Anthropic Claude, and Muse Code, offering quickstart guides, pricing per piece, and enterprise bulk options. It includes machine‑readable resources like /openapi.json and /llms.txt, and supports agent‑driven payments through Stripe. The service targets US addresses and offers express delivery, making it easy for AI‑powered applications to handle real‑world correspondence.
+
+**Areas:** Company · AI · Mail · API · Automation
+
+## Sendpaper on APIs.io
+
+Everything profiled for Sendpaper is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sendmypaper-com/](https://apis.io/providers/sendmypaper-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Sendpaper Enterprise Inquiries API](https://apis.io/apis/sendmypaper-com/sendmypaper-com-enterprise-inquiries-api/) — The Enterprise Inquiries API from Sendpaper — 1 operation(s) for enterprise inquiries.
+- [Sendpaper Letters API](https://apis.io/apis/sendmypaper-com/sendmypaper-com-letters-api/) — The Letters API from Sendpaper — 1 operation(s) for letters.
+- [Sendpaper Orders API](https://apis.io/apis/sendmypaper-com/sendmypaper-com-orders-api/) — The Orders API from Sendpaper — 3 operation(s) for orders.
+- [Sendpaper Postcards API](https://apis.io/apis/sendmypaper-com/sendmypaper-com-postcards-api/) — The Postcards API from Sendpaper — 1 operation(s) for postcards.
+- [Sendpaper Pricing API](https://apis.io/apis/sendmypaper-com/sendmypaper-com-pricing-api/) — The Pricing API from Sendpaper — 1 operation(s) for pricing.
+- [Sendpaper Products API](https://apis.io/apis/sendmypaper-com/sendmypaper-com-products-api/) — The Products API from Sendpaper — 1 operation(s) for products.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sendpaper Agentic Access](https://apis.io/agentic-access/sendmypaper-com/sendmypaper-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Batch](https://apis.io/schemas/sendmypaper-com/sendmypaper-com-batch/)
+- [CreateLetter](https://apis.io/schemas/sendmypaper-com/sendmypaper-com-create-letter/)
+- [CreatePostcard](https://apis.io/schemas/sendmypaper-com/sendmypaper-com-create-postcard/)
+- [EnterpriseInquiry](https://apis.io/schemas/sendmypaper-com/sendmypaper-com-enterprise-inquiry/)
+- [Order](https://apis.io/schemas/sendmypaper-com/sendmypaper-com-order/)
+- [Product](https://apis.io/schemas/sendmypaper-com/sendmypaper-com-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sendmypaper Com Context](https://apis.io/jsonld/sendmypaper-com/sendmypaper-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sendpaper API Rules](https://apis.io/rules/sendmypaper-com/sendmypaper-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sendpaper Domain Security](https://apis.io/security/sendmypaper-com/sendmypaper-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sendpaper Plans Pricing](https://apis.io/plans/sendmypaper-com/sendmypaper-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sendmypaper.com/)
+- [Documentation](https://docs.sendmypaper.com/)
+- [Getting started](https://docs.sendmypaper.com/quickstart)
+- [API reference](https://docs.sendmypaper.com/api/introduction)
+- [Terms of service](https://sendmypaper.com/terms)
+- [Privacy policy](https://sendmypaper.com/privacy)
+- [GitHub](https://github.com/ryan-tish/sendpaper-plugin)
+
+## API Evangelist rating
+
+**Kin Score 46.2** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 40.0 |
+
+**Agent readiness 48.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sendmypaper-com/](https://apis.io/providers/sendmypaper-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sendpaper: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sendmypaper-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
